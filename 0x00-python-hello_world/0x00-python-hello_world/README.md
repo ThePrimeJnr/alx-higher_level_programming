@@ -1,2 +1,0 @@
-#ALX Higher Level Programming
-
