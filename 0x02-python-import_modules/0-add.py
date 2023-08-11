@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-if __name__ is not __import__:
+if __name__ == "__main__":
     import add_0
 
     a = 1
