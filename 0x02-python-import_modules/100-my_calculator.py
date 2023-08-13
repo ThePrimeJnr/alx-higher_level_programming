@@ -15,11 +15,11 @@ if __name__ == "__main__":
     if oper == "+":
         print("{} {} {} = {}".format(a, oper, b, add(a, b)))
     elif oper == "-":
-        print("{} {} {} = {}".format(a, oper, b, add(a, b)))
+        print("{} {} {} = {}".format(a, oper, b, sub(a, b)))
     elif oper == "*":
-        print("{} {} {} = {}".format(a, oper, b, add(a, b)))
+        print("{} {} {} = {}".format(a, oper, b, div(a, b)))
     elif oper == "/":
-        print("{} {} {} = {}".format(a, oper, b, add(a, b)))
+        print("{} {} {} = {}".format(a, oper, b, mul(a, b)))
     else:
         print("Unknown operator. Available operators: +, -, * and /")
         exit(1)
