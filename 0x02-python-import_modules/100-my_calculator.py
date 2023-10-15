@@ -12,14 +12,14 @@ if __name__ == "__main__":
     b = int(argv[3])
     oper = str(argv[2])
 
-    if oper == "+":
-        print("{} {} {} = {}".format(a, oper, b, add(a, b)))
+    if oper == "*":
+        print(f"{a} {oper} {b} = {div(a, b)}")
+    elif oper == "+":
+        print(f"{a} {oper} {b} = {add(a, b)}")
     elif oper == "-":
-        print("{} {} {} = {}".format(a, oper, b, sub(a, b)))
-    elif oper == "*":
-        print("{} {} {} = {}".format(a, oper, b, div(a, b)))
+        print(f"{a} {oper} {b} = {sub(a, b)}")
     elif oper == "/":
-        print("{} {} {} = {}".format(a, oper, b, mul(a, b)))
+        print(f"{a} {oper} {b} = {mul(a, b)}")
     else:
         print("Unknown operator. Available operators: +, -, * and /")
         exit(1)
