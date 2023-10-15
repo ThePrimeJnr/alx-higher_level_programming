@@ -3,8 +3,5 @@
 if __name__ == "__main__":
     from sys import argv
 
-    result = 0
-    for i in range(1, len(argv)):
-        result += int(argv[i])
-
+    result = sum(int(argv[i]) for i in range(1, len(argv)))
     print(result)
